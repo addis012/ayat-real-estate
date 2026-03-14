@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ayat Real Estate Addis Ababa | Apartments, Commercial Shops & Property Investment</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/webp" sizes="32x32" href="ayat-logo.webp">
+  <link rel="icon" type="image/webp" sizes="16x16" href="ayat-logo.webp">
+  <link rel="apple-touch-icon" href="ayat-logo.webp">
+
+  <meta name="description" content="Ayat Real Estate in Addis Ababa, Ethiopia. Explore residential apartments, commercial shops in CMC, and premium property investment opportunities. Call Ayat Real Estate phone number 0919549024 today." />
+  <meta name="keywords" content="Ayat Real Estate, Ayat Real Estate Addis Ababa, Ayat Property, apartment in Addis Ababa, commercial shops CMC, real estate in Addis Ababa, Ayat phone number, Ayat homes, Ayat commercial property, Ethiopia real estate, Addis Ababa investment property" />
+  <meta name="author" content="Ayat Real Estate" />
+  <meta name="robots" content="index, follow" />
+  <meta name="language" content="English" />
+  <meta name="revisit-after" content="7 days" />
+  <meta name="theme-color" content="#8f1116" />
+
+  <link rel="canonical" href="https://ayatrealestate.com/" />
+
+  <meta property="og:title" content="Ayat Real Estate Addis Ababa | Apartments & Commercial Shops" />
+  <meta property="og:description" content="Discover Ayat Real Estate in Addis Ababa. Residential apartments, commercial shops in CMC, and trusted property investment opportunities in Ethiopia." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://ayatrealestate.com/" />
+  <meta property="og:image" content="ayat-logo.webp" />
+  <meta property="og:site_name" content="Ayat Real Estate" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Ayat Real Estate Addis Ababa | Apartments & Commercial Shops" />
+  <meta name="twitter:description" content="Ayat Real Estate is a trusted Ethiopian real estate company delivering homes, commercial properties, and smart investment opportunities in Addis Ababa." />
+  <meta name="twitter:image" content="ayat-logo.webp" />
+
+  <style>
+    :root{
+      --red:#9f1116;
+      --darkred:#7c0d12;
+      --white:#ffffff;
+      --offwhite:#f7f3f3;
+      --bg:#120909;
+      --card:#1d0d0f;
+      --card2:#261214;
+      --border:rgba(255,255,255,.10);
+      --text:#ffffff;
+      --muted:#e3d4d4;
+      --radius:20px;
+      --shadow:0 20px 45px rgba(0,0,0,.45);
+    }
+
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+
+    body{
+      margin:0;
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+      min-height:100vh;
+      background:
+        radial-gradient(800px 400px at 20% 10%, rgba(159,17,22,.24), transparent 60%),
+        radial-gradient(700px 400px at 80% 30%, rgba(255,255,255,.06), transparent 60%),
+        linear-gradient(135deg, #090404, var(--bg));
+      color:var(--text);
+      line-height:1.6;
+    }
+
+    .wrapper{
+      width:100%;
+      max-width:980px;
+      margin:0 auto;
+      padding:24px 16px 40px;
+    }
+
+    .container{
+      width:100%;
+      max-width:760px;
+      margin:0 auto;
+      background:linear-gradient(180deg, #220d10, var(--card));
+      border:1px solid var(--border);
+      border-radius:28px;
+      box-shadow:var(--shadow);
+      padding:30px 22px;
+      text-align:center;
+    }
+
+    .logo{
+      width:150px;
+      height:150px;
+      margin:0 auto 16px;
+      border-radius:50%;
+      border:3px solid var(--white);
+      background:#ffffff;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      overflow:hidden;
+      box-shadow:0 10px 30px rgba(0,0,0,.25);
+    }
+
+    .logo img{
+      width:100%;
+      height:100%;
+      object-fit:contain;
+      padding:0;
+    }
+
+    .badge{
+      display:inline-block;
+      background:rgba(255,255,255,.08);
+      color:var(--offwhite);
+      border:1px solid rgba(255,255,255,.18);
+      padding:7px 14px;
+      border-radius:999px;
+      font-size:12px;
+      font-weight:700;
+      letter-spacing:.4px;
+      margin-bottom:14px;
+    }
+
+    h1{
+      margin:6px 0 8px;
+      font-size:34px;
+      line-height:1.15;
+      color:var(--white);
+      letter-spacing:.3px;
+    }
+
+    .subtitle{
+      margin:0 auto 18px;
+      color:var(--muted);
+      font-size:15px;
+      max-width:640px;
+    }
+
+    .intro{
+      margin:0 auto 24px;
+      color:#f7eaea;
+      font-size:15px;
+      max-width:690px;
+      text-align:left;
+    }
+
+    .btn-grid{
+      display:grid;
+      gap:14px;
+      margin:10px 0 28px;
+    }
+
+    .btn{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      padding:16px 18px;
+      border-radius:var(--radius);
+      text-decoration:none;
+      color:var(--text);
+      background:linear-gradient(135deg, var(--red), var(--darkred));
+      font-weight:800;
+      box-shadow:0 10px 25px rgba(0,0,0,.35);
+      transition:.18s ease;
+      border:1px solid rgba(255,255,255,.08);
+    }
+
+    .btn.secondary{
+      background:linear-gradient(135deg, #ffffff, #eadbdb);
+      color:#651015;
+    }
+
+    .btn:hover{
+      transform:translateY(-2px);
+      filter:brightness(1.05);
+    }
+
+    .left{
+      display:flex;
+      align-items:center;
+      gap:10px;
+      text-align:left;
+    }
+
+    .icon{
+      width:38px;
+      height:38px;
+      border-radius:12px;
+      background:rgba(0,0,0,.22);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-size:18px;
+      flex-shrink:0;
+    }
+
+    .section{
+      background:linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.02));
+      border:1px solid var(--border);
+      border-radius:22px;
+      padding:22px 18px;
+      margin-top:18px;
+      text-align:left;
+    }
+
+    .section h2{
+      margin:0 0 10px;
+      font-size:22px;
+      color:var(--white);
+    }
+
+    .section p{
+      margin:0 0 14px;
+      color:var(--muted);
+      font-size:15px;
+    }
+
+    .highlights{
+      display:grid;
+      grid-template-columns:repeat(auto-fit, minmax(160px, 1fr));
+      gap:12px;
+      margin-top:12px;
+    }
+
+    .highlight{
+      background:var(--card2);
+      border:1px solid var(--border);
+      border-radius:18px;
+      padding:14px;
+    }
+
+    .highlight strong{
+      display:block;
+      color:var(--white);
+      font-size:18px;
+      margin-bottom:4px;
+    }
+
+    .highlight span{
+      color:var(--muted);
+      font-size:14px;
+    }
+
+    .cta-text{
+      color:#fff2f2;
+      font-weight:700;
+      margin-top:8px;
+    }
+
+    .offer-box{
+      background:rgba(255,255,255,.04);
+      border:1px solid rgba(255,255,255,.12);
+      border-radius:18px;
+      padding:16px;
+      margin-top:14px;
+    }
+
+    .offer-box h3{
+      margin:0 0 10px;
+      color:#fff;
+      font-size:18px;
+    }
+
+    .offer-box ul{
+      margin:0;
+      padding-left:18px;
+      color:var(--muted);
+    }
+
+    .offer-box li{
+      margin-bottom:8px;
+    }
+
+    footer{
+      margin-top:24px;
+      font-size:12px;
+      color:var(--muted);
+      text-align:center;
+    }
+
+    .sr-only{
+      position:absolute;
+      width:1px;
+      height:1px;
+      padding:0;
+      margin:-1px;
+      overflow:hidden;
+      clip:rect(0,0,0,0);
+      white-space:nowrap;
+      border:0;
+    }
+
+    @media (max-width:640px){
+      .container{
+        padding:24px 16px;
+      }
+
+      h1{
+        font-size:28px;
+      }
+
+      .logo{
+        width:130px;
+        height:130px;
+      }
+
+      .section h2{
+        font-size:20px;
+      }
+
+      .intro{
+        font-size:14px;
+      }
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"RealEstateAgent",
+    "name":"Ayat Real Estate",
+    "alternateName":"Ayat Share Company",
+    "url":"https://ayatrealestate.com/",
+    "logo":"https://ayatrealestate.com/ayat-logo.webp",
+    "image":"https://ayatrealestate.com/ayat-logo.webp",
+    "telephone":"+251919549024",
+    "description":"Ayat Real Estate is a proudly Ethiopian-owned real estate company in Addis Ababa with over 25 years of experience, delivering over 5,000 homes and 1,000 commercial properties while creating employment for over 15,000 people.",
+    "areaServed":{
+      "@type":"City",
+      "name":"Addis Ababa"
+    },
+    "address":{
+      "@type":"PostalAddress",
+      "addressLocality":"Addis Ababa",
+      "addressCountry":"ET"
+    },
+    "sameAs":[
+      "https://ayatrealestate.com/"
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <main class="wrapper">
+    <section class="container">
+      <div class="logo">
+        <img src="ayat-logo.webp" alt="Ayat Real Estate logo - Addis Ababa Ethiopia">
+      </div>
+
+      <div class="badge">Trusted Real Estate Legacy in Addis Ababa</div>
+
+      <h1>Ayat Real Estate</h1>
+      <p class="subtitle">
+        Residential apartments, commercial shops, and smart property investment opportunities in Addis Ababa, Ethiopia.
+      </p>
+
+      <p class="intro">
+        Located in the heart of Addis Ababa, <strong>Ayat Real Estate</strong> represents more than just a real estate firm; it stands as a legacy of passion and innovation. With over <strong>25 years of experience</strong>, Ayat has pioneered the industry by creating not only houses but homes, integrating innovative development, construction, and financial solutions.
+        <br><br>
+        Ayat, a proudly Ethiopian-owned company, has fulfilled the dreams of thousands of families by delivering over <strong>5,000 homes</strong> and <strong>1,000 commercial properties</strong>. In addition to its construction achievements, Ayat has generated employment opportunities for over <strong>15,000 individuals</strong>.
+      </p>
+
+      <div class="btn-grid">
+        <a class="btn" href="tel:+251919549024" aria-label="Call Ayat Real Estate phone number 0919549024">
+          <div class="left">
+            <div class="icon">📞</div>
+            <span>Call Ayat Real Estate<br><small style="font-weight:600;opacity:.9;">0919549024</small></span>
+          </div>
+          <div>›</div>
+        </a>
+
+        <a class="btn" href="https://wa.me/251919549024?text=Hello%20Ayat%20Real%20Estate%2C%20I%20need%20more%20information%20about%20your%20apartments%20and%20commercial%20shops%20in%20Addis%20Ababa." target="_blank" rel="noopener" aria-label="Chat with Ayat Real Estate on WhatsApp">
+          <div class="left">
+            <div class="icon">💬</div>
+            <span>WhatsApp Ayat Real Estate</span>
+          </div>
+          <div>›</div>
+        </a>
+
+        <a class="btn secondary" href="https://ayatrealestate.com/" target="_blank" rel="noopener" aria-label="Visit Ayat Real Estate website">
+          <div class="left">
+            <div class="icon">🌐</div>
+            <span>Visit Website</span>
+          </div>
+          <div>›</div>
+        </a>
+
+        <a class="btn secondary" href="#" aria-label="View Ayat Real Estate office location">
+          <div class="left">
+            <div class="icon">📍</div>
+            <span>Office Location</span>
+          </div>
+          <div>›</div>
+        </a>
+      </div>
+
+      <section class="section">
+        <h2>Why Choose Ayat Real Estate in Addis Ababa?</h2>
+        <p>
+          If you are searching for <strong>real estate in Addis Ababa</strong>, a trusted <strong>apartment in Addis Ababa</strong>, or a valuable commercial investment, Ayat Real Estate offers a long-standing reputation, strong project delivery, and reliable financing options.
+        </p>
+        <p>
+          With decades of experience and thousands of delivered properties, Ayat continues to shape Addis Ababa’s urban future through smart design, construction excellence, and customer-focused real estate solutions.
+        </p>
+        <p class="cta-text">
+          📞 Contact Ayat Real Estate now to learn more about available apartments, commercial shops, payment plans, and bank financing options.
+        </p>
+
+        <div class="highlights">
+          <div class="highlight">
+            <strong>25+ Years</strong>
+            <span>Legacy of passion and innovation</span>
+          </div>
+          <div class="highlight">
+            <strong>5,000+ Homes</strong>
+            <span>Delivered to families across Ethiopia</span>
+          </div>
+          <div class="highlight">
+            <strong>1,000+ Commercial Units</strong>
+            <span>Strong real estate investment options</span>
+          </div>
+          <div class="highlight">
+            <strong>15,000+ Jobs</strong>
+            <span>Employment opportunities created</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Commercial Shop Offers – CMC Site</h2>
+        <p>
+          Ayat Real Estate offers prime commercial spaces in the <strong>CMC area</strong>, one of Addis Ababa’s important business hubs. These commercial units are ideal for investors and business owners looking for a strategic location with strong growth potential.
+        </p>
+
+        <div class="offer-box">
+          <h3>CMC Commercial Shop Details</h3>
+          <ul>
+            <li><strong>Starting Size:</strong> 24 m²</li>
+            <li><strong>Price:</strong> 124,000 ETB per m²</li>
+            <li><strong>Total Estimated Price:</strong> 2,976,000 ETB for 24 m²</li>
+            <li><strong>Down Payment:</strong> 10% initial payment required</li>
+            <li><strong>Bank Financing:</strong> 90% can be covered through a bank loan</li>
+            <li><strong>Location:</strong> CMC, Addis Ababa</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Residential Apartment Offers</h2>
+        <p>
+          Ayat Real Estate also presents attractive residential apartment opportunities for buyers looking for quality homes with a shorter delivery timeline and convenient financing.
+        </p>
+
+        <div class="offer-box">
+          <h3>Residential Apartment Details</h3>
+          <ul>
+            <li><strong>Starting Size:</strong> 80 m²</li>
+            <li><strong>Unit Type:</strong> Typically 2-bedroom apartments</li>
+            <li><strong>Construction Status:</strong> 90% completed</li>
+            <li><strong>Down Payment:</strong> 10%</li>
+            <li><strong>Bank Financing:</strong> 90% through a long-term bank loan</li>
+            <li><strong>Ideal For:</strong> Families and investors seeking quick handover opportunities</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Ayat Real Estate Phone Number</h2>
+        <p>
+          To speak directly with the Ayat team, call <strong>Ayat Real Estate phone number: 0919549024</strong>. You can also contact Ayat via WhatsApp for apartment details, commercial shop availability, payment plans, and financing information in Addis Ababa.
+        </p>
+      </section>
+
+      <h2 class="sr-only">Ayat Real Estate Addis Ababa Apartments and Commercial Shops</h2>
+      <p class="sr-only">
+        Ayat Real Estate is a leading Ethiopian real estate company in Addis Ababa offering residential apartments, commercial shops in CMC, long-term bank financing, and investment property opportunities.
+      </p>
+
+      <footer>
+        © <span id="year"></span> Ayat Real Estate • Addis Ababa, Ethiopia
+      </footer>
+    </section>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
